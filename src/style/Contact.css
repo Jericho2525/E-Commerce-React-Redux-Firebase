@@ -1,0 +1,51 @@
+.contact{
+    height:100vh;
+    display:flex;
+    width:100%;
+}
+.contact .leftside{
+    background-image: url("../images//Contact.webp");
+    height:100%;
+    flex:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.contact .rightside{
+    display: flex;
+    height:100%;
+    flex:30%;
+    flex-direction: column;
+    padding:10px;
+    justify-content: center;
+    
+}
+.contact form{
+    display:flex;
+    flex-direction: column;
+}
+.contact input{
+    padding:14px;
+    border-radius: 10px;
+    border:1.5px solid black;
+}.contact textarea{
+    padding:14px;
+    border-radius: 10px;
+    border:1.5px solid black;
+}
+.contact button{
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+}
+form label{
+    font-size: 20px;
+    margin-top:10px;
+    padding-top:25px;
+}
